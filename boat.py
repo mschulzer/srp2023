@@ -23,7 +23,7 @@ def vind(x):
     y = np.sin(2 * np.pi * f * x/s)
     return y
 
-# Magnus-effekten: rV((2*pi*r)^2)*w*L
+# Magnus-effekten: r*V*((2*pi*r)^2)*w*L
 def magnus(v):
     return ((math.pow((2*math.pi*2.5), 2))*1.225*30*1*v)
 
