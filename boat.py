@@ -20,7 +20,7 @@ def vind(x):
     f = 2
     s = 200
     x = np.arange(s)
-    y = np.sin(2 * np.pi * f * x/s)
+    y = math.sin(2 * math.pi * f * x/s)
     return y
 
 # Magnus-effekten: r*V*((2*pi*r)^2)*w*L
