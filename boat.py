@@ -35,12 +35,13 @@ def newton_kg(x):
 ###################################################################
 
 t = Turtle()
+steps = 100
 setup(800, 500)
 bgcolor("lightskyblue")
 
 
 """ Main """
-for i in range(100):
+for i in range(steps):
     t.forward(8)
     if (i % 4 == 0):
         t.right(math.sin(i)*10)
