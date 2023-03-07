@@ -31,7 +31,7 @@ def newton_kg(x):
     return (x*0.1019716)
 
 ###################################################################
-# Sæt nogle variable - og initier Turtle()
+# Sæt nogle variabler - og initiér Turtle()
 ###################################################################
 
 t = Turtle()
