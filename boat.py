@@ -18,7 +18,7 @@ def erasableWrite(tortoise, name, font, align, reuse=None):
 
 def vind(x):
     f = 2
-    s = 8000
+    s = 200
     x = np.arange(s)
     y = np.sin(2 * np.pi * f * x/s)
     return y
