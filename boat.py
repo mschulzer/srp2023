@@ -17,11 +17,10 @@ def erasableWrite(tortoise, name, font, align, reuse=None):
     return eraser
 
 def vind(x):
-    Fs = 8000
     f = 2
-    sample = 8000
-    x = np.arange(sample)
-    y = np.sin(2 * np.pi * f * x/8000)
+    s = 8000
+    x = np.arange(s)
+    y = np.sin(2 * np.pi * f * x/s)
     return y
 
 # Magnus-effekten: rV((2*pi*r)^2)*w*L
